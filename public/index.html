@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
+    <link href="<%= BASE_URL %>style/basic.css" rel="stylesheet" />
+    <link href="https://cdn.webdatarocks.com/latest/webdatarocks.min.css" rel="stylesheet" />
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
+  <body>
+    <script src="https://webapi.amap.com/maps?v=1.4.15&key=577a71567f05e8bef184d8d9e80198f4&plugin=Map3D,AMap.DistrictLayer,AMap.Scale,AMap.ToolBar,AMap.Geocoder,AMap.AdvancedInfoWindow,AMap.MarkerClusterer,AMap.Heatmap,AMap.PolyEditor,AMap.Riding,AMap.PlaceSearch"></script>
+    <script src="//webapi.amap.com/ui/1.1/main.js"></script>
+    <noscript>
+      <strong
+        >We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work
+        properly without JavaScript enabled. Please enable it to
+        continue.</strong
+      >
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>

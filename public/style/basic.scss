@@ -1,0 +1,107 @@
+@import './reset.css';
+
+/*字体样式*/
+@font-face {
+  font-family: 'baseZh';
+  src: local('PingFang SC'), local('Microsoft YaHei'), local('Arial');
+}
+
+@font-face {
+  font-family: 'baseEn';
+  src: local('Helvetica Neue'), local('Helvetica'), local('Arial');
+}
+
+@font-face {
+  font-family: 'number';
+  src: local('Avenir Next'), local('Helvetica'), local('Arial');
+  unicode-range: 0x30, 0x39;
+}
+
+* {
+  font-family: number, baseEn, baseZh;
+}
+
+/*滚动条样式*/
+::-webkit-scrollbar {
+  width: 8px !important;
+  height: 8px !important;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 4px !important;
+  background-color: #930cea;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  background: #ededed;
+  border-radius: 4px !important;
+}
+
+/*iconfont样式*/
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+
+/*字体样式*/
+.f12 {
+  font-size: 12px;
+}
+
+.f14 {
+  font-size: 14px;
+}
+
+.f16 {
+  font-size: 16px;
+}
+
+.f18 {
+  font-size: 18px;
+}
+
+.f20 {
+  font-size: 20px;
+}
+
+.f24 {
+  font-size: 24px;
+}
+
+.f26 {
+  font-size: 26px;
+}
+
+.f28 {
+  font-size: 28px;
+}
+
+.font-white,
+.c_white {
+  color: #ffffff !important;
+}
+
+.font-purple {
+  color: #bf5cff;
+}
+/* 正文字体颜色 */
+.font-content-light {
+  color: #495060;
+}
+
+/* 背景为深色时使用 */
+.font-hui-deep {
+  color: #ced3dd;
+}
+/* 背景为浅色时使用 */
+.font-hui-light {
+  color: #ced3dd;
+}
+
+.font-title-light {
+  color: #1c2348;
+}

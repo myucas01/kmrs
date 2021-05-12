@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59 (86127) - https://sketch.com -->
+    <title>icon-位置</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icon-位置" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="位置">
+            <rect id="矩形" fill="#000000" opacity="0" x="0" y="0" width="14" height="14"></rect>
+            <path d="M6.812,13 L6.8,13 C6.59,13 6.392,12.916 6.248,12.76 C6.134,12.64 5.108,11.554 4.082,10.186 C2.702,8.332 2,6.85 2,5.794 C2,3.148 4.154,1 6.8,1 C9.446,1 11.6,3.148 11.6,5.794 C11.6,6.436 11.354,7.222 10.862,8.134 C10.394,9.01 9.686,10.03 8.756,11.158 L8.75,11.164 L7.37,12.736 C7.232,12.904 7.028,13 6.812,13 Z M6.8,8.032 C8.042,8.032 9.044,7.024 9.044,5.788 C9.044,4.552 8.042,3.55 6.8,3.55 C5.558,3.55 4.55,4.552 4.55,5.794 C4.55,7.036 5.558,8.032 6.8,8.032 Z" id="形状" fill="#CED3DD" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>
